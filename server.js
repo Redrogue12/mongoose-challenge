@@ -60,3 +60,13 @@ app.post('/posts', (req, res) => {
       res.status(500).json({error: 'Error. Something went wrong'});
     });
 });
+
+app.delete('/:id', (req, res) => {
+  Blog
+    .findByIdAndRemove(req.params.id)
+    .exec()
+    .then(() => {
+      console.log(`Deleted blog post with id \`${req.params.ID}\``);
+      res.status(204).end();
+    });
+});
