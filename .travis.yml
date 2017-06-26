@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: aanutxCXd3sozj8FiOlu8vHUrMYdxUvuQWj+5qWsMKhb2MLy3DGGXP3pnQ2uZdeDm6dqarl3B0SvarNNvMpNMjRQlp5Dgdht50MEJBY4A5XTWBv/SC5yTDqDKyG3gsyoOpPmdeGU0VlB7hwDMYhB13s2bZ9qGDjAxcoKS2/KTcMQLYg+rQbNUcOKfswFU9WkF7KYXZj0N2MOlIQ9fOWNcJ45n3RZYWl4rfwOsJ2bXn226ATVjekVSjjCYHVgoehcsFZ9Ey7I8fzGRPUBG1r8ZsA4F5wOC0+G+UkzdXbWTWwtwVnHMFHwOJAzjkXd2JjEQgrusL/LNjQ+CJTHRQlKNysmJFVodwdjAQl4T6P3TM71pUHOXj6vdFAX82nubZQ/9QZXs2hEaOk79ET3lekzk7GQMBeu76Fl7fYHZ5gxDt1jUrGIdw0+C8YT8cJHarYZ/tLNa/A1qv3Q5gU1K/Ch5CO9qI5YOW0g4Gzca/8XkwxnsqeZwD0GcUjijUCCie+DM42FS21Gy9osUT1yZTJYC1S5/6uaLtmAxWQT+HggsPO2xR2y9IwWNGEf+DeTLEY52qQQmCuZ8Y7mKAc5gJhd/qXJNm3QX+LtZDLdaJvl0bKISQLsTmJVWsILPGBt+AT4BwXVKNLFI6k8PQi3PqXlWdkVvro3T0CvXmFKkRCV18E=
+  app: enigmatic-castle-21053
+  on:
+    repo: Redrogue12/mongoose-challenge
