@@ -54,7 +54,7 @@ app.post('/posts', (req, res) => {
       content: req.body.content,
       author: req.body.author
     })
-    .then(blogPost => res.status(201).json(Blog.apiRepr()))
+    .then(blogPost => res.status(201).json(blogPost.apiRepr()))
     .catch(err => {
       console.error(err);
       res.status(500).json({error: 'Error. Something went wrong'});
