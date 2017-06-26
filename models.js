@@ -33,4 +33,4 @@ blogSchema.methods.apiRepr = function() {
 // Call to model
 const Blog = mongoose.model('Blog', blogSchema);
 
-model.exports = {Blog};
+module.exports = {Blog};
