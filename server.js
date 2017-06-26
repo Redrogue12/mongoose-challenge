@@ -92,6 +92,7 @@ function runServer(databaseUrl=DATABASE_URL, port=PORT) {
       });
     });
   });
+}
 
 // Close server and returns promise
 function closeServer() {
