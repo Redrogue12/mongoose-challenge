@@ -11,7 +11,7 @@
     "faker": "^4.1.0",
     "mongoose": "^4.10.8",
     "morgan": "^1.8.2",
-    "uuid": "^3.1.0"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "mocha": "^3.4.2"
